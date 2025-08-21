@@ -8,71 +8,81 @@
 </head>
 <body>
     <header>
-        <img src="img\Bakery with Bold Design Elements.png" alt="logo_panifunnyaria" class="logo">
-        <nav class="cabecalho">
-            <ul>
-                <li><a href="cardapio.html" target="_blank">CARDÁPIO</a></li>
-                <li><a href="encomenda.html" target="_blank">ENCOMENDA</a></li>
-                <li><a href="pizzas.html" target="_blank">PIZZAS</a></li> 
-                <li><a href="#contatos">CONTATOS</a></li>
+        <img src="img\Bakery with Bold Design Elements.png" alt="logo" class="logo"/>
+        <nav class="superbar">
+            <ul id="initial_buttons">
+                <li><a href="#" alt="cardapio">CARDAPIO</a></li>
+                <li><a href="#" alt="encomendas">ENCOMENDAS</a></li>
+                <li><a href="#" alt="pizzas">PIZZAS</a></li>
+                <li><a href="#" alt="contatos">CONTATOS</a></li>
+            </ul>
+            <ul id="icons_social">
+                <li><a href="#"><img src="img\whatsapp_1383336.png" alt="whatsapp"></a></li>
+                <li><a href="#"><img src="img\social_14050262.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="img\instagram_253801.png" alt="instagram"></a></li>
             </ul>
         </nav>
-        <div class="social_icons">
-            <a href="https://wa.me/19999183466" target="_blank">
-                <img src="img\whatsapp_1383336.png" alt="whatsapp">
-            </a>
-            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
-                <img src="img\social_14050262.png" alt="facebook">
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="img\instagram_253801.png" alt="instagram">
-            </a>
-        </div>
     </header>
     <main>
-        <section id="produto-carousel" class="carrosel">
-            <img src="assets/produto1.jpg" alt="Produto 1 - Exemplo de pão" class="carousel-item"> 
-            <img src="assets/produto2.jpg" alt="Produto 2 - Exemplo de pizza" class="carousel-item">
-            <img src="assets/produto3.jpg" alt="Produto 3 - Exemplo de bebida" class="carousel-item">
-           
-            <button class="seta_direita">←</button>
-            <button class="seta_esquerda">→</button>
-            <div>
-                <button class="botoes_carrossel"><img src ="">CARDAPIO</button>
-                <button class="botoes_carrossel"><img src ="">SOBRE NOS</button>
-                <button class="botoes_carrossel"><img src ="">DELIVERY</button>
-                <button class="botoes_carrossel"><img src ="">IR COM O WAZE</button>
+        <section id="carousel_section">
+        <div id="img_carousel">
+            <img src="#" alt="images"/>
+        </div>
+        <div id="bar_buttons">
+            <button class="yellow_button"><img src="#" alt="cardapios">CARDAPIOS</button>
+            <button class="yellow_button"><img src="#" alt="sobrenos">SOBRE NÓS</button>
+            <button class="yellow_button"><img src="#" alt="delivery">DELIVERY</button>
+            <button class="yellow_button"><img src="#" alt="waze">IR COM O WAZE</button>
+        </div>
+        </section>
+        <section id="favorites_section">
+            <div id="left">
+                <h2>FAVORITO<br>DOS<br>CLIENTES!</h2>
+                <div id="arrows_button">
+                    <button class="prev">←</button>
+                    <button class="next">→</button>
+                </div>
             </div>
-
-            <section id="categorias" class="category-bar">
-        <div class="button-container">
-            <button class="category-button">
-                <img src="assets/coffee-icon.png" alt="Ícone de café">
-                Café da Manhã
-            </button>
-            <button class="category-button">
-                <img src="assets/bread-icon.png" alt="Ícone de pão">
-                Pães
-            </button>
-            <button class="category-button">
-                <img src="assets/pizza-icon.png" alt="Ícone de pizza">
-                Pizzas
-            </button>
-        </div>
-        <div>
-            <button class="category-button">
-                <img src="assets/hot-drink-icon.png" alt="Ícone de bebida quente">
-                Bebidas Quentes
-            </button>
-            <button class="category-button">
-                <img src="assets/cold-drink-icon.png" alt="Ícone de bebida gelada">
-                Bebidas Geladas
-            </button>
-            <button class="category-button">
-                <img src="assets/sweet-icon.png" alt="Ícone de doce">
-                Doces
-            </button>
-        </div>
+            <div id="favorites_card">
+                <div class="carousel_cards">
+                    <div class="image_card"></div>
+                    <h3>Item 2</h3>
+                    <p>lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="carousel_cards">
+                    <div class="image_card"></div>
+                    <h3>Item 1</h3>
+                    <p>lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="carousel_cards">
+                    <div class="image_card"></div>
+                    <h3>Item 3</h3>
+                    <p>lorem ipsum lorem ipsum lorem ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="categories_section">
+            <h2>CATEGORIAS</h2>
+            <div id="firstrowbuttons">
+                <button class="white_button"><img src="#" alt="cafemanha">CAFÉ DA MANHÃ</button>
+                <button class="white_button"><img src="#" alt="paes">PÃES</button>
+                <button class="white_button"><img src="#" alt="pizzas">PIZZAS</button>
+            </div>
+            <div id="second_row_buttons">
+                <button class="white_button"><img src="#" alt="bebidasquente">BEBIDAS QUENTES</button>
+                <button class="white_button"><img src="#" alt="bebidasgelada">BEBIDAS GELADAS</button>
+                <button class="white_button"><img src="#" alt="doces">DOCES</button>
+            </div>
+            <div id="demo_img">
+                <img src="#" alt="images"/>
+            </div>
+        </section>
     </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
